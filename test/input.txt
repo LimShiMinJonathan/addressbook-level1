@@ -100,6 +100,17 @@
   list
 
 ##########################################################
+# test sort command
+##########################################################
+  add Clark Kent p/12345678 e/clarkket@example.com
+  add Bruce Wayne p/87654321 e/bruncewayne@example.com
+  list
+   # sort entries
+  sort
+  list
+
+
+##########################################################
 # test exit command
 ##########################################################
 

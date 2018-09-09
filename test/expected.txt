@@ -71,6 +71,10 @@
 || 
 || exit: Exits the program.	Example: exit
 || help: Shows program usage instructions.	Example: help
+||
+|| sort: Sorts all persons in the address book lexicographically.
+|| 	Example: sort
+||
 || ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
@@ -274,6 +278,27 @@
 || Enter command: || [Command entered:  list]
 || 
 || 0 persons found!
+|| ===================================================
+|| Enter command: || [Command entered:  add Clark Kent p/12345678 e/clarkket@example.com]
+|| New person added: Clark Kent, Phone: 12345678, Email: clarkkent@example.com
+|| ===================================================
+|| Enter command: || [Command entered:  add Bruce Wayne p/87654321 e/bruncewayne@example.com]
+|| New person added: Bruce Wayne, Phone: 87654321, Email: brucewayne@example.com
+|| ===================================================
+|| Enter command: || [Command entered:  list]
+|| 	1. Clark Kent, Phone: 12345678, Email: clarkkent@example.com
+|| 	2. Bruce Wayne, Phone: 87654321, Email: brucewayne@example.com
+||
+|| 2 persons found!
+|| ===================================================
+|| Enter command: || [Command entered:  sort]
+|| Address book has been sorted!
+|| ===================================================
+|| Enter command: || [Command entered:  list]
+|| 	1. Bruce Wayne, Phone: 87654321, Email: brucewayne@example.com
+|| 	2. Clark Kent, Phone: 12345678, Email: clarkkent@example.com
+||
+|| 2 persons found!
 || ===================================================
 || Enter command: || [Command entered:  exit]
 || Exiting Address Book... Good bye!
